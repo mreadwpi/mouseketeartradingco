@@ -84,8 +84,9 @@ body {
 /* homepage */
 /* hex key: purple: 7a66aa blue: aedfe7 pink: ffddd4 */
 #hero {
-    background-image: url();
-    height: 90vh;
+    background-image: url(xmas2.jpg);
+    background-color: #ffddd4;
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 10;
@@ -106,7 +107,7 @@ body {
 
 #hero button{
     background-color: transparent;
-    color: #aedfe7;
+    color: #7a66aa;
     border: 0;
     padding: 14px 80px 14px 65px;
     cursor: pointer;
@@ -264,4 +265,19 @@ footer p{
     padding: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head div {
+    padding-left: 40px;
 }
